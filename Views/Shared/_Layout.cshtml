@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewBag.Title - Inventory Management</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" />
+</head>
+<body>
+    <header><div class="wrap nav">
+        <strong>Inventory Management</strong>
+        <nav>@Html.ActionLink("Inventory", "Index", "Product")
+        @Html.ActionLink("Add Product", "Create", "Product")</nav>
+    </div></header>
+    <main class="wrap">@RenderBody()</main>
+    <footer class="wrap">Practical 8 | ADO.NET &amp; CRUD Operations<br />
+        AYUSH SHARMA | 92400103460 | 5EC1 | Batch A</footer>
+</body>
+</html>
