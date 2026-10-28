@@ -2,8 +2,6 @@
 
 **AIM:** Develop Inventory Management Module using ADO.NET & CRUD Operations.
 
-Ayush Sharma | 92400103460 | 5EC1 | Batch A | 01CE1523 - .NET Technologies
-
 ## Requirements
 
 - Visual Studio with ASP.NET and web development tools and the .NET Framework 4.8 targeting pack.
@@ -38,5 +36,3 @@ This is ASP.NET MVC 5 on .NET Framework 4.8, consistent with the preceding pract
 - Validate required fields, non-negative stock and positive price.
 - Persist inventory in SQL Server using ADO.NET `SqlConnection`, parameterized `SqlCommand`, `SqlDataReader` and `ExecuteNonQuery`.
 - Use typed SQL parameters, disposable connections and anti-forgery validation on modifying actions.
-
-The submission PDF and screenshots from the running application are in `docs/`.
